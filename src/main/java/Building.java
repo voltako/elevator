@@ -9,16 +9,9 @@ public class Building {
     Elevator elev3 = new Elevator(3,9);
 
 
-    public void callElev(){
-        System.out.println("Введите этаж: ");
-        Scanner scanner = new Scanner(System.in);
-        if(scanner.hasNextInt()){
-            isAvailableOnFloor(scanner.nextInt());
-        }else {
-            System.out.println("Ошибка! Введите корректный этаж");
+    public void callElevator(int floor){
+        isAvailableOnFloor(floor);
         }
-
-    }
 
     public void setStatus(){
         elevators.clear();
