@@ -8,6 +8,9 @@ public class Elevator {
         this.floor = floor;
 
     }
+
+
+
     @Override
     public String toString(){
         return "Номер лифта: "+this.id+" "+"Этаж лифта: "+this.floor;
@@ -19,6 +22,8 @@ public class Elevator {
     public void setFloor(int floor){
         this.floor = floor;
     }
+
+
 
 
 

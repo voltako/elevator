@@ -1,12 +1,15 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Building {
 
+
     ArrayList<Elevator> elevators = new ArrayList<>();
+
     Elevator elev1 = new Elevator(1,1);
     Elevator elev2 = new Elevator(2,5);
     Elevator elev3 = new Elevator(3,9);
+
+
 
 
     public void callElevator(int floor){
